@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/txvlop"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/tron"
+                android:text="PHP"
+                android:gravity="center"
+                android:textSize = "20dp"
+                android:textColor = "#000000">
+            </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txtTen"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Đào Văn Tiến"
+                android:gravity="center_vertical"
+                android:textSize="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+                <ImageView
+                    android:id="@+id/imgGT"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/nam"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/txtSDT"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="0988233102"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/txtEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="vantien931999@gmail.com"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical">
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
